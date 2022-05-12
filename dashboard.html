@@ -3,48 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./dashboard.css">
     <title>Document</title>
 </head>
 <body>
-  <h1>Page under construction</h1>
-<main class="timeline">
-<div class="column-navbar">
-    <i></i>
-    <i></i>
-<i></i>
-<i></i>
-<i></i>
-<i></i>
-<i></i>
-<i></i>
-</div>
-<div class="navbar">
-  <h3>Timeline</h3>  
-<ul class="list-item">
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-</ul>
-</div>
-<div class="container">
-  <h6>Subject</h6>  
-  <div class="box">
-    <p></p>  
-    <p></p>  
-    <p></p>  
-    <p></p>  
+  <section class="section">
+      <main>
+          <!-- icons sidebar -->
+          <aside>
+              <div class="logo">
+                  <img src="./Image/figma logo.png" alt="">
+              </div>
+              <div class="des">
+                  <img src="./Image/des.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%;">
+                  <p>Awoyo Oluwadamilola</p>
+              </div>
+              <div class="icon">
+                  <div class="icons">
+                      <img src="./Image/home.png" alt="" >
+                  </div>
+                  <div class="icons">
+                      <img src="./Image/home (2).png" alt="">
+                  </div>
+                  <div class="icons">
+                      <img src="./Image/contact.png" alt="">
+                  </div>
+                  <div class="icons">
+                      <img src="./Image/message.png" alt="">
+                  </div>
+                  <div class="icons">
+                      <img src="./Image/play.png" alt="">
+                  </div>
+                  <div class="icons">
+                      <img src="./Image/message.png" alt="">
+                  </div>
+                  <div class="icons">
+                      <img src="./Image/setting.png" alt="">
+                  </div>
+              </div>
+          </aside>
 
-  </div>
-<div class="calender">
+          <!-- main dashboard -->
+          <div class="dashboard">
+              <!-- logo -->
+              <div class="timeline">
+                <div class="h1">
+                    <h1>Timeline</h1>
+                </div>
 
-</div>
-</div>
-<div class="event">
-    
+                <div class="timeline-card">
+                    <!-- calendar -->
+                    <div class="calendar-controll"> 
+                    <h4><button><</button>Nov 02<button>></button></h4>    
+                    </div>
+                    <!-- dropdown -->
+                    <div class="dropdown">
+                        <div class="dropdown-menu">
+                           <p>sort by classes<i class="fa-solid fa-circle-chevron-down"></i></p> 
+                        </div>
+                        <div class="dropdown-menu">
+                           <p> Week view<i class="fa-solid fa-circle-chevron-down"></i></p>
+                        </div>
+                    </div>
+                    <!-- Search -->
+                    <div class="search">
+                        <input type="text" placeholder="Search">
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="subject">
 
-</div>
-</main> 
+              </div>
+              <div class="calendar">
+
+              </div>
+          </div>
+          <div class="event">
+              <div class="activities">
+                <div class="viewAll">
+                   <h1>Event</h1> <button>View all</button>
+                </div>
+                <div class="remainder">
+                    <h3>Activities</h3>
+                    <h3>remainder</h3>
+                </div>
+              </div>
+          </div>
+      </main>
+  </section>
 </body>
 </html>
